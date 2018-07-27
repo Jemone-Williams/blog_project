@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Activity -  Link the css file inside the href quotation marks below -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Make it live</title>
+<style>
+@font-face {
+  font-family: denseFont;
+/*------Activity - Link the roboto.light.ttf inside the url brackets below------*/
+  src: url("../fonts/roboto.light.ttf"  );
+}
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  font-family: 'Century Gothic';
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: #0f0e5c;
+  text-shadow: 0 0 5px white, 0 0 5px #0000FF;
+}
+
+p {
+  font-family: 'denseFont';
+  color: #eee;
+}
+
+.header {
+/*------Activity - Link the hero-image.jpg inside the url brackets below------*/
+  background-image: url("images/63661815-nissan-skyline-r34-wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.header h1 {
+  padding: 0;
+  font-size: 50px;
+}
+
+.header p {
+  padding: 0;
+  margin-top: -25px;
+}
+
+.header-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 5px 0;
+}
+
+
+.header-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 12px 28px;
+  color: #c56f36;
+  border: 1px solid #c56f36;
+  border-radius: 2px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #c56f36;
+}
+
+.intro-section {
+  display: grid;
+  background-color: black;
+  box-shadow: 5px -12px 73px white;
+}
+
+table{
+  text-align: left;
+  line-height: 50px;
+}
+
+.intro-section h2 {
+  font-size: 26px;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.intro-section hr {
+  padding: 0;
+  width: 10%;
+  height: 1px;
+  background-color: #c56f36;
+  border: none;
+}
+
+.intro-section p {
+  padding: 10px 0;
+}
+
+.intro-section p span {
+  color: #c56f36;
+  font-weight: bold;
+}
+
+.plans {
+  background-color: black;
+}
+
+
+/**************parallax-section****************/
+.parallax-section {
+  background-image: url("images/62863435-nissan-skyline-r34-wallpapers.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+
+@keyframes theAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .plans {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    grid-column-gap: 5px;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-text .secondary-button {
+    margin: 10px;
+  }
+  .header-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .plans {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    grid-column-gap: 5px;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topnav {
+    width: 100%;
+  }
+  .header-text .secondary-button {
+    margin: 10px;
+  }
+  .header-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .plans {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    grid-column-gap: 5px;
+    padding: 10px;
+    justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="header-text">
+
+                <h1>
+                    R34 specs
+                </h1>
+                            <button>Back to Home</button>
+
+            </div>
+        </div>
+
+
+        <div class="intro-section">
+
+<p>In January 1999, Nissan introduced the fifth generation of the Skyline GT-R along with the V-Spec version. The fifth generation, known as the R34 kept the same 2.6 liter Twin Turbo engine from the previous models, but introduced a new chassis. The new car had a 50% stiffer body structure and was shorter than the R33. Improvements to the engine's valve timing and camshafts along with the ceramic turbocharger gave the engine an actual output of around 320 hp, although Nissan continued to advertise the car as having 280 hp. The 280 hp rule was a gentlemen's agreement in the Japanese auto industry, in which they adhered to the idea of not making cars with more than 280 horsepower in order to reduce high speed accidents. The R34 GT-R was also the first GT-R to feature a 5.8 inch LCD in the center console, that provided the driver with seven digitized information regarding the car's engine and dynamic parameters.</p>
+<p>Trundling gently up and down this road for car-to-car shots, we’ve held up a couple of cars, and the old Ford Ka has been delayed a bit longer than most. So when it slows to a halt as we’re turning around for another run, I’m braced for a scowl or maybe a hand gesture. I look across and the lady in her 50s is gesticulating alright. But she’s giving the double thumbs up and smiling madly. Before pulling away she shakes her head like she just can’t believe she’s seeing an Nissan Skyline GT-R R34, blows a few kisses, and is gone.</p>
+<p>’ve been fortunate enough to drive some great cars in great locations and I’ve never experienced such universally positive reactions as greeted the R34 when we turned up in Margate. There’s probably no more subtle a colour than silver and this UK-spec car has the standard twin-pipe back-box rather than the optional Nismo drainpipe, so it’s quieter than a 370Z, but as we amble along the seafront on this busy, sunny afternoon, I’m getting a taste of what it must be like to be a celebrity. At one end of the scale there’s nudging and pointing, double-takes and ‘subtle’ raising of cameraphones, and at the other plain awe, reverence and wild enthusiasm, occasionally with sweary, can-you-believe-this?! shouting. And it’s all sorts of people too, from kids to pensioners, parents to youfs. No question, driving an R34 gets you a whole lotta love.</p>
+
+        </div>
+
+
+<!-- Creates a "parallax" effect -->
+        <div class="parallax-section">
+        </div>
+
+        <div class="plans">
+          <p>Skyline specialist Middlehurst Motorsport had brought in 100 R33s and when the R34 came along Nissan GB wanted to bring the car officially into the UK itself. There would be a delay, though, because although the all-wheel- drive running gear was lightly stressed by the stock ‘276bhp’, it wanted to add a package of upgrades to protect the car in the event of sustained autobahn running – oil coolers for the engine, gearbox and AWD transfer box. There was a new engine ECU too and, completing the mods, the interior was enhanced with Connolly leather-trimmed seats.</p>
+<p>This slightly odd mash-up of Japanese high tech and traditional British craftsmanship lies partly in the passion of the Connolly brothers for the Skyline. They had been fans since the R32 and were friends with the owner of Rare Imports, who was able to source cars for them.</p>
+        </div>
+
+
+
+<!-- Activity - Link the javascript file inside the src quotation marks below -->
+<script src="javascript/javascript.js"></script>
+</body>
+</html>

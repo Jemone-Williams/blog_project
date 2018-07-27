@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "V-spec R34 Introduction",
+      "Author": "Abraham",
+      "image": "../images/r34pic6-1024-768.jpg",
+      "date": "22/09/1994",
+      "time": "9:00pm",
+      "content": "Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.",
+      "link": "http://localhost:3000/article1"
+    },
+    {
+      "id": "2",
+      "title": "R34 specs",
+      "Author": "Ricardo",
+      "image": "../images/r34pic2-1024-768.jpg",
+      "date": "22/09/1994",
+      "time": "9:00pm",
+      "content": "Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.",
+      "link": "http://localhost:3000/article2"
+    },
+    {
+      "id": "3",
+      "title": "Nissan Skyline GTR R34",
+      "Author": "Keanan",
+      "image": "../images/r34pic4-1024-768.jpg",
+      "date": "22/09/1994",
+      "time": "9:00pm",
+      "content": "Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.",
+      "link": "http://localhost:3000/article3"
+    },
+    {
+      "id": "4",
+      "title": "Nissan R35 GTR Nismo",
+      "Author": "Devon",
+      "image": "../images/r35pic5-1024-768.jpg",
+      "date": "22/09/1994",
+      "time": "9:00pm",
+      "content": "Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.",
+      "link": "http://localhost:3000/article4"
+    },
+    {
+      "id": "5",
+      "title": "Nissan R36 concept",
+      "Author": "Matthew",
+      "image": "../images/nissan-concept-2020-vision-gran-turismo_100529703_h.jpg",
+      "date": "22/09/1994",
+      "time": "9:00pm",
+      "content": "Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.",
+      "link": "http://localhost:3000/article5"
+    },
+    {
+      "id": "6",
+      "title": "Nissan Skyline R35 specs",
+      "Author": "Marlon",
+      "image": "../images/r35pic6-1024-768.jpg",
+      "date": "22/09/1994",
+      "time": "9:00pm",
+      "content": "Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.",
+      "link": "http://localhost:3000/article6"
+    }
+  ]
+}

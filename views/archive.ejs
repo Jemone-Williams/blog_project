@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<style media="screen">
+.jumbotron {
+  height: 600px;
+  background-image: url(../images/61026996-2016-nissan-gt-r-45th-anniversary-gold-edition-21.jpg);
+
+  background-size: cover;
+}
+</style>
+<body>
+  <!-- <div class="container"> -->
+
+<div class="row">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">IGNITION</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="new">New Post</a></li>
+        <li><a href="archive">Archive</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="row">
+<div class="jumbotron">
+  <h1><img src="../images/Japan-Grunge-Flag-PNG-image.png" style="width: 70px;">
+   Archive
+  </h1>
+</div>
+</div>
+
+    <div class="row">
+  <% if (posts) { %>
+
+    <% posts.forEach(function(post){ %>
+
+
+
+      <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="panel panel-primary">
+
+        <div class="panel-heading">
+          <h3 class="panel-title"><h3><%= post.title %></h3></h3>
+        </div>
+
+        <div class="panel-body">
+          <img style="height: 394.66px;"src="<%=post.image %>" alt=""width="100%">
+          <hr>
+          <p> <%= post.content %></p>
+
+        </div>
+        <div class="panel-body">
+          <p><%= post.button %></p>
+ <a href=" <%= post.link %>" role="button"><button>Read more</button></a>
+ <a href=" <%= post.link %>" role="button"><button>Edit</button></a>
+ <a href=" <%= post.link %>" role="button"><button>Delete</button></a>
+        </div>
+        <div class="panel-footer">
+          <p>Author: <%= post.Author %>, at <%= post.time %> on <%= post.date %></p>
+        </div>
+      </div>
+</div>
+</row>
+  <!-- <h1><%= title %></h1>
+  <div class="panel panel-primary">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Panel Title</h3>
+    </div>
+
+    <div class="panel-body">
+      Panel content
+    </div>
+    <div class="panel-footer">
+      Panel footer
+    </div>
+  </div>
+  <p>Welcome to <%= title %></p> -->
+
+
+
+
+
+
+
+
+    <% }); %>
+
+  <% } else { %>
+
+    <p>You have no blog posts</p>
+
+  <% } %>
+
+</body>
+</html>

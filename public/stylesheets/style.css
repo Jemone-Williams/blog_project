@@ -1,0 +1,47 @@
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(../images/john-volante-695011-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  text-shadow: 0 0 5px white, 0 0 5px #0000FF;
+}
+
+button {
+  font-size: 15px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+button:hover {
+width: 150px;
+-webkit-transition: all 1000ms ease;
+}
+
+.jumbotron {
+  height: 600px;
+  background-image: url(../images/2f5e23c3ff9a49d1c7985e2c8f236d5e.jpg);
+
+  background-size: cover;
+}
+
+.panel-heading{
+box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 1.0);
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #222;
+    border-color:silver;
+}
+.pnael-primary{
+  border-color: none;
+}
